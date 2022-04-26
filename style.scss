@@ -1,8 +1,9 @@
 $header-colors: #6b8eff;
+$general-padding:16px;
 body {
   %message-shared{
     border: 1px solid #ccc;
-    padding: 16px;
+    padding: $general-padding;
     margin: 16px;
     color: #2748b3;
     background-color: #000;
@@ -47,7 +48,7 @@ body {
       flex-basis: 45%;
       border: 1px silver solid;
       @include shadow-box(10px, 10px, 19px, -4px, rgba(255, 255, 255, 0.75));
-      padding: 16px;
+      padding: $general-padding;
       margin: 16px;
       clear: both;
       overflow: auto;
@@ -72,7 +73,7 @@ body {
         margin-bottom: 1.6em;
         max-width: 100%;
         overflow: auto;
-        padding: 16px;
+        padding: $general-padding;
         display: block;
         white-space: pre-wrap;
 
@@ -92,7 +93,7 @@ body {
   h6 {
     text-align: center;
     font-size: 2em;
-    padding: 32px;
+    padding: 2 * $general-padding;
     margin-bottom: 0px;
     color: $header-colors;
   }
