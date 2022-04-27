@@ -1,6 +1,7 @@
-$header-colors: #6b8eff;
-$general-padding:16px;
+@use 'base' as *;
+
 body {
+  $general-padding:16px;
   %message-shared{
     border: 1px solid #ccc;
     padding: $general-padding;
@@ -36,7 +37,7 @@ body {
 
   h1 {
     text-align: center;
-    color: $header-colors;
+    color: $header-default;
   }
 
   article {
@@ -55,7 +56,7 @@ body {
       box-sizing: border-box;
 
       h2{
-        color: $header-colors;
+        color: $header-default;
       }
 
       #selling-points {
@@ -76,6 +77,7 @@ body {
         padding: $general-padding;
         display: block;
         white-space: pre-wrap;
+        
 
         .before {
           float: left;
@@ -95,7 +97,7 @@ body {
     font-size: 2em;
     padding: 2 * $general-padding;
     margin-bottom: 0px;
-    color: $header-colors;
+    color: $header-default;
   }
 
   .success {

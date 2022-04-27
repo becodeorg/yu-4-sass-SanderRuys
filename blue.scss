@@ -1,2 +1,24 @@
-@use 'base';
+@use 'base' as *;
 @use 'style';
+
+body{
+    color: $color-blue;
+    background-color: $background-grey;
+    
+    h1, h6{
+        color: $header-blue;
+    }
+    article{
+        section{
+            h2{
+                color: $header-blue;
+            }
+            background: $background-grey;
+            pre{
+                color: $color-blue;
+                background: $background-grey;
+            }
+            
+        }
+    }
+}

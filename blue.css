@@ -79,4 +79,22 @@ body .error {
 }
 body .warning {
   background-color: orange;
+}
+
+body {
+  color: rgb(34, 63, 164);
+  background-color: rgb(180, 180, 180);
+}
+body h1, body h6 {
+  color: rgb(34, 63, 164);
+}
+body article section {
+  background: rgb(180, 180, 180);
+}
+body article section h2 {
+  color: rgb(34, 63, 164);
+}
+body article section pre {
+  color: rgb(34, 63, 164);
+  background: rgb(180, 180, 180);
 }/*# sourceMappingURL=blue.css.map */

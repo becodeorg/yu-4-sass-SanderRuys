@@ -1,0 +1,19 @@
+$header-default: #6b8eff;
+$color-red: rgb(133, 8, 8);
+$color-blue: rgb(34, 63, 164);
+$header-red:rgb(133, 8, 8);
+$header-blue: rgb(34, 63, 164);
+$background-gold: goldenrod;
+$new-background-image: radial-gradient(
+      #fff,
+      rgba(195, 0, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(#fff, rgba(195, 0, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(#fff, rgba(195, 0, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(195, 0, 255, 0.4),
+      rgba(195, 0, 255, 0.1) 2px,
+      transparent 30px
+    );
+$background-grey: rgb(180, 180, 180);

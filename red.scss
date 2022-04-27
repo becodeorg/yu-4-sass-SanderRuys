@@ -1,2 +1,25 @@
-@use 'base';
+@use 'base' as *;
 @use 'style';
+
+body{
+    color: $color-red;
+    background-color: $background-gold;
+    background-image: $new-background-image;
+    h1, h6{
+        color: $header-red;
+    }
+    article{
+        section{
+            h2{
+                color: $header-red;
+            }
+            background: $background-gold;
+            pre{
+                color: $color-red;
+                background: $background-gold;
+            }
+            
+        }
+    }
+}
+

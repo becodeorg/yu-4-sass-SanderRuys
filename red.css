@@ -79,4 +79,23 @@ body .error {
 }
 body .warning {
   background-color: orange;
+}
+
+body {
+  color: rgb(133, 8, 8);
+  background-color: goldenrod;
+  background-image: radial-gradient(#fff, rgba(195, 0, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(195, 0, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(195, 0, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(195, 0, 255, 0.4), rgba(195, 0, 255, 0.1) 2px, transparent 30px);
+}
+body h1, body h6 {
+  color: rgb(133, 8, 8);
+}
+body article section {
+  background: goldenrod;
+}
+body article section h2 {
+  color: rgb(133, 8, 8);
+}
+body article section pre {
+  color: rgb(133, 8, 8);
+  background: goldenrod;
 }/*# sourceMappingURL=red.css.map */
